@@ -1,0 +1,10 @@
+num = int(input("Enter a number: "))
+flag = 1
+for i in range(1,num+1):
+  if num % i == 0:
+    flag = 0
+    break
+if flag == 0:
+  print("Number is prime")
+else:
+  print("Number is not prime")
