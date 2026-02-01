@@ -13,15 +13,3 @@ for i in range(n):
         break   # array already sorted
 
 print(arr)
-
-
-
-
-
-
-
-
-
-
-
-
